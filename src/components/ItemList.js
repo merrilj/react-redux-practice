@@ -12,7 +12,7 @@ class ItemList extends Component {
 
   render() {
     if (this.props.hasErrored) {
-      return <p>Sorry! There was an evil error loading the items!</p>
+      return <p>Sorry! There was an error loading the items!</p>
     }
 
     if (this.props.isLoading) {
